@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10%;
+    background:#000000;
+}
+    .logo{
+        color:white;
+        width:100px;
+        height:100px;
+        display:flex;
+        justify-content:center;
+    }
+    nav ul{
+        display:flex;
+        gap:30px;
+    }
+    nav a{
+        color:rgb(255, 255, 255);
+    }
+    button{
+        padding: 10px 20px;
+        background:#2563eb;
+        color:white;
+    }
+
+main{
+    padding: 20%;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+}
+
+footer{
+    display:flex;
+    justify-content:pace-between;
+    gap:20px;
+    padding:10%;
+    background-color:#000000;
+    color:white;
+    text-align:center;
+    flex-wrap:wrap;
+}
